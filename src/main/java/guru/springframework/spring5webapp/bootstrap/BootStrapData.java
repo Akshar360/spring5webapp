@@ -41,6 +41,7 @@ public class BootStrapData implements CommandLineRunner {
         bookRepository.save(noEJB);
 
         System.out.println("Started in Bootstrap");
+        System.out.println("Started in Bootstrap Test");
         System.out.println("Number of Books: " + bookRepository.count());
     }
 }
