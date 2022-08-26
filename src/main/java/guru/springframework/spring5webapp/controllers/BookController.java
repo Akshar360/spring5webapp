@@ -20,6 +20,6 @@ public class BookController
     {
         model.addAttribute("books", bookRepository.findAll()); //we are going to add books from repo to the attribute
                                                                  //on the model called books.
-        return "books/list";  //return string Books to the view so it creates a view called Books
+        return "books/list";  //return string books/list as this is the directory where its found
     }
 }
